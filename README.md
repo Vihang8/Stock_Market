@@ -16,7 +16,7 @@ the next 336 form validation set and the closing prices of remaining days form
 the testing set.
 
 Finally, the data is normalized to contain the growth of weights. It was ob-
-served that the weight vector displayed [nannannan] if the stock prices were
+served that the weight vector displayed [nan nan nan] if the stock prices were
 considered in their dollar value. To maintain the integrity of the testing and
 validation data, the entire dataset was normalized by considering the mean and
 variance of the training data only.
